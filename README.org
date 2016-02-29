@@ -37,3 +37,5 @@ Hide all:
     (all        . (perms links user group size time))
     (no-details . ())))
 #+END_SRC
+** Related Projects
+- [[https://github.com/misohena/dired-details-r/][dired-details-r.el]] :: Show dired details to right of filename
