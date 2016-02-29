@@ -14,6 +14,9 @@ Hide all:
 [[file:./dired-details-s-3.png]]
 
 
+** Requirements
+- Emacs 24.4
+
 ** Usage
 
 [[file:./dired-details-s.el]]
