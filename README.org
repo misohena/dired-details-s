@@ -1,8 +1,16 @@
 * dired-details-s.el - Hide Dired Details Separately
 ** Screenshots
 
+Hide permissions, link count, user, group (Show size and timestamp only):
+
 [[file:./dired-details-s-1.png]]
+
+Show all:
+
 [[file:./dired-details-s-2.png]]
+
+Hide all:
+
 [[file:./dired-details-s-3.png]]
 
 
@@ -17,3 +25,12 @@
 ** Key
 
 - "(" : Rotate details combination
+
+** Customize
+
+#+BEGIN_SRC elisp
+(setq dired-details-s-types
+  '((size-time  . (size time))
+    (all        . (perms links user group size time))
+    (no-details . ())))
+#+END_SRC
